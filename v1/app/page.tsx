@@ -1,5 +1,3 @@
-import VideoBackground from '@/components/VideoBackground'
-import Particles from '@/components/Particles'
 import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
 import Features from '@/components/Features'
@@ -10,9 +8,7 @@ import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
-    <main className="min-h-screen relative">
-      <VideoBackground />
-      <Particles />
+    <main className="min-h-screen">
       <Navbar />
       <Hero />
       <Features />
@@ -23,3 +19,4 @@ export default function Home() {
     </main>
   )
 }
+
