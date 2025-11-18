@@ -27,6 +27,7 @@ export default function VideoBackground() {
     let time = 0
 
     function animate() {
+      if (!ctx) return
       time += 0.01
       ctx.fillStyle = '#000'
       ctx.fillRect(0, 0, canvas.width, canvas.height)
